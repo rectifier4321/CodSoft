@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternating Image and Text</title>
+    
+
+    <style>
+        
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #333;
+            text-shadow: 2px 2px 0 #ccc;
+        } 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: bisque;
+            max-width: 800px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+          }
+          
+        .container {
+            display: flex;
+            justify-content: space-between;
+            
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            height: 10%;
+        }
+        .content {
+            width: 80%;
+            padding: 20px;
+        }
+        .content img {
+            max-width: 1000px;
+            height: 40vh;
+            display: block;
+        }
+        .text {
+            background-color: #ffffff;
+        }
+        .image-section {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 48vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin:20px;
+        }
+        content.image-section {
+            padding: 20px;
+            margin: 20px;
+        }
+        .text-section {
+            background-color: #ffffff;
+            padding: 12px;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 12px;
+        }
+        h4{
+            text-align: center;
+            margin-top: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TaskMaster Chronicles</h1><br>
+    <div class="container">
+        <div class="content image-section" style="background-image: url('image 1.jpeg');">
+            <!-- Image will be set as background -->
+           
+        </div>
+        <div class="content text-section">
+            <h2>Problem Statement</h2>
+            <p>Meet Aarav. Aarav is a hardworking professional, but him busy schedule is overwhelming him.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content text-section">
+            <h2>Traditional List</h2>
+            <p>But the traditional pen paper to-do list keeps getting longer, and she's struggling to keep up</p>
+        </div>
+        <div class="content image-section" style="background-image: url('image 2.jpeg');">
+            <!-- Image will be set as background -->
+        </div>
+    </div>
+    
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div class="container">
+            <h4>Here Comes a Solution<br><br> <img src="D:\Desktop\Important Docs\MyCertificates\Codsoft\To_do_list\image3.jpeg"></h4>
+            <div class="todo-app">
+                <h2>To Do List <img src="images\icon (1).png"></h2>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Add Your Text">
+                    <button onclick ="addTask()">Add</button>
+                </div>
+                <ul id="list-container">
+                    <li class="checked">Task 1</li>
+                    <li>Task2</li>
+                    <li>Task 3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            
+            <img src="D:\Desktop\Important Docs\MyCertificates\Codsoft\To_do_list\final.jpg" height="400px" width="200px">
+           
+            <ul>
+                <h2>Features</h2>
+                <li>Easy to use</li>
+                <li>Simple and efficient</li>
+                <li>Can be used by anyone</li>
+            </ul>
+        </div>
+    </body>
+</html>
+    
+      <script src="app.js"></script>
+</body>
+</html>
